@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PausePanelSkin" width="568" height="852" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" fillAlpha="0.55"/>
+	<e:Button id="restartBtn" label="" x="234.33" y="194.67">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Restart_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="resumeBtn" label="" x="362.33" y="266.67">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Resume_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="shopBtn" label="" x="337" y="387">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Shop_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="backBtn" label="" x="130.33" y="286.33">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Back_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:ToggleSwitch id="musicBtn" label="" x="225.02" y="471.03">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="Btn_Music_On_png" source.down="Btn_Music_Off_png"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:ToggleSwitch>
+	<e:ToggleSwitch id="soundBtn" label="" x="137.66" y="393">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="Btn_Sound_On_png" source.down="Btn_Sound_Off_png"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:ToggleSwitch>
+	<e:Image id="logoImg" source="Txt_Title_Pause_png" y="65.3" x="182"/>
+	<w:Config id="1583802c24a"/>
+</e:Skin>

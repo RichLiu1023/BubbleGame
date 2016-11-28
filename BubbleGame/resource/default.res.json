@@ -1,0 +1,981 @@
+{
+	"groups": [
+		{
+			"keys": "companylogo_png,hallBet_fnt,hallBet_png,number1_fnt,number1_png,number2_fnt,number2_png,number3_fnt,number3_png,tips_notice_png",
+			"name": "loading"
+		},
+		{
+			"keys": "GameMain_BG_1_jpg,GameMain_Launcher_png,bubble-1_png,bubble-2_png,bubble-3_png,bubble-4_png,bubble-5_png,bubble-6_png,bubble-7_png,GameMain_FG_png,bubble-8_png,GameMain_Top_png,GameMain_Wave_png,hit_air_mp3,hit_bubble_mp3,hit_coin_mp3,hit_iron_mp3,hit_key_mp3,hit_stone_mp3,hit_wall_mp3,hit_wood_mp3,readyGo_mp3,shoot_mp3,combo_mp3,split_mp3,GameMain_Aim_png,GameMain_Banner_png,GameMain_BG_2_jpg,GameMain_BG_3_jpg,GameMain_BG_4_jpg,GameMain_BG_5_jpg,GameMain_BG_6_jpg,GameMain_Line_png,GameMain_Line_Base_png,bubble_burst_mp3,bubble-9_png,bubble-11_png,bubble-12_png,bubble-13_png,bubble-10_png,bubble-20_png,bubble-14_png,bubble-15_png,bubble-16_png,bubble-17_png,bubble-18_png,bubble-19_png,dye_mp3,bubble-21_png,fireball_explode_mp3,fireball_shoot_mp3,bubble-22_png,bomb_shoot_mp3,bomb_explode_mp3,fuse_burning_mp3,fire_burning_mp3,alarm_mp3,Txt_Combo_png,hallBet_fnt,Txt_TargetDone_png,Txt_Excellent_png,Txt_Fail_png,Txt_Go_png,Txt_Good_png,Txt_Great_png,Txt_Nice_png,Txt_Ready_png,nice_mp3,excellent_mp3,good_mp3,cool_mp3,Txt_Blocked_png,Btn_Pause_png,Btn_Next_png,Btn_Restart_png,Btn_Resume_png,Txt_Title_Pause_png,Txt_Title_Complete_png,Txt_Title_GameOver_png,Common_Star_Dim_png,Common_Star_Light_png,lose_mp3,win_mp3,GameMain_Count_png,quick_move_mp3,bubble-23_png,GameMain_Coin_png",
+			"name": "main"
+		},
+		{
+			"keys": "level-1_json,level-2_json,level-3_json,level-4_json,level-5_json,level-7_json,level-8_json,level-9_json,level-6_json,level-10_json,level-11_json",
+			"name": "config"
+		},
+		{
+			"keys": "Btn_Help_png,Btn_Music_Off_png,Btn_Music_On_png,Btn_Play_png,Btn_Shop_png,Btn_Sound_Off_png,Btn_Sound_On_png,Main_BG_jpg,Main_Logo_png,Txt_Porgress_png,Txt_Title_Help_png,Txt_Title_Shop_png,Help_Banner_png,Help_Shade_png,Btn_Back_png,Shop_Coin_png,Shop_Btn_Buy_png,Shop_Banner_png,bg_mp3,click_mp3",
+			"name": "start"
+		},
+		{
+			"keys": "Level_Area_2_png,Level_Area_3_png,Level_Area_4_png,Level_Area_5_png,Level_Area_6_png,Level_Arrow_png,Level_Avator_png,Level_Base_Coin_png,Level_Base_Life_png,Level_BTN_1_png,Level_BTN_2_png,Level_BTN_3_png,Level_BTN_4_png,Level_BTN_5_png,Level_BTN_6_png,Level_BTN_Boss_Lock_png,Level_BTN_Boss_png,Level_BTN_Lock_png,Level_BTN_Pets_png,Level_Daily_png,Level_Gift_png,Level_Halo_png,Level_Map_1_jpg,Level_Map_2_jpg,Level_Map_3_jpg,Level_Map_4_jpg,Level_Map_5_jpg,Level_Map_6_jpg,Level_Map_7_jpg,Level_Map_8_jpg,Level_Mark_2_png,Level_Mark_3_png,Level_Mark_4_png,Level_Mark_5_png,Level_Mark_6_png,Avator_Add_png,Avator_Aim_Dim_png,Avator_Aim_Light_png,Avator_Bomb_Dim_png,Avator_Bomb_Light_png,Avator_Clear_Dim_png,Avator_Clear_Light_png,Avator_Lock_png,Avator_Mark_Dim_png,Avator_Mark_Light_png,Avator_Rainbow_Dim_png,Avator_Rainbow_Light_png,Avator_Rise_Dim_png,Avator_Rise_Light_png,Avator_Steel_Dim_png,Avator_Steel_Light_png,LevelInfo_Banner_png,LevelInfo_Btn_Play_png,LevelInfo_Light_png,LevelInfo_Limit_Bubble_png,LevelInfo_Limit_Time_png,LevelInfo_Star_Dim_png,LevelInfo_Star_Light_png,Common_Info_BG_png,Btn_Close_png,Common_Arrow_png,Txt_BestScore_png,Txt_Score_png,GameMain_Txt_Target_png",
+			"name": "level"
+		}
+	],
+	"resources": [
+		{
+			"url": "ui/companylogo.png",
+			"type": "image",
+			"name": "companylogo_png"
+		},
+		{
+			"url": "ui/GameMain/GameMain_BG_1.jpg",
+			"type": "image",
+			"name": "GameMain_BG_1_jpg"
+		},
+		{
+			"url": "ui/GameMain/GameMain_Launcher.png",
+			"type": "image",
+			"name": "GameMain_Launcher_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-1.png",
+			"type": "image",
+			"name": "bubble-1_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-2.png",
+			"type": "image",
+			"name": "bubble-2_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-3.png",
+			"type": "image",
+			"name": "bubble-3_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-4.png",
+			"type": "image",
+			"name": "bubble-4_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-5.png",
+			"type": "image",
+			"name": "bubble-5_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-6.png",
+			"type": "image",
+			"name": "bubble-6_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-7.png",
+			"type": "image",
+			"name": "bubble-7_png"
+		},
+		{
+			"url": "ui/GameMain/GameMain_FG.png",
+			"type": "image",
+			"name": "GameMain_FG_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-8.png",
+			"type": "image",
+			"name": "bubble-8_png"
+		},
+		{
+			"url": "ui/GameMain/GameMain_Top.png",
+			"type": "image",
+			"name": "GameMain_Top_png"
+		},
+		{
+			"url": "ui/GameMain/GameMain_Wave.png",
+			"type": "image",
+			"name": "GameMain_Wave_png"
+		},
+		{
+			"url": "config/level-1.json",
+			"type": "json",
+			"name": "level-1_json"
+		},
+		{
+			"url": "config/level-2.json",
+			"type": "json",
+			"name": "level-2_json"
+		},
+		{
+			"url": "audios/bg.mp3",
+			"type": "sound",
+			"name": "bg_mp3"
+		},
+		{
+			"url": "audios/hit_air.mp3",
+			"type": "sound",
+			"name": "hit_air_mp3"
+		},
+		{
+			"url": "audios/hit_bubble.mp3",
+			"type": "sound",
+			"name": "hit_bubble_mp3"
+		},
+		{
+			"url": "audios/hit_coin.mp3",
+			"type": "sound",
+			"name": "hit_coin_mp3"
+		},
+		{
+			"url": "audios/hit_iron.mp3",
+			"type": "sound",
+			"name": "hit_iron_mp3"
+		},
+		{
+			"url": "audios/hit_key.mp3",
+			"type": "sound",
+			"name": "hit_key_mp3"
+		},
+		{
+			"url": "audios/hit_stone.mp3",
+			"type": "sound",
+			"name": "hit_stone_mp3"
+		},
+		{
+			"url": "audios/hit_wall.mp3",
+			"type": "sound",
+			"name": "hit_wall_mp3"
+		},
+		{
+			"url": "audios/hit_wood.mp3",
+			"type": "sound",
+			"name": "hit_wood_mp3"
+		},
+		{
+			"url": "audios/readyGo.mp3",
+			"type": "sound",
+			"name": "readyGo_mp3"
+		},
+		{
+			"url": "audios/shoot.mp3",
+			"type": "sound",
+			"name": "shoot_mp3"
+		},
+		{
+			"url": "audios/combo.mp3",
+			"type": "sound",
+			"name": "combo_mp3"
+		},
+		{
+			"url": "audios/split.mp3",
+			"type": "sound",
+			"name": "split_mp3"
+		},
+		{
+			"url": "ui/GameMain/GameMain_Aim.png",
+			"type": "image",
+			"name": "GameMain_Aim_png"
+		},
+		{
+			"url": "ui/GameMain/GameMain_Banner.png",
+			"type": "image",
+			"name": "GameMain_Banner_png"
+		},
+		{
+			"url": "ui/GameMain/GameMain_BG_2.jpg",
+			"type": "image",
+			"name": "GameMain_BG_2_jpg"
+		},
+		{
+			"url": "ui/GameMain/GameMain_BG_3.jpg",
+			"type": "image",
+			"name": "GameMain_BG_3_jpg"
+		},
+		{
+			"url": "ui/GameMain/GameMain_BG_4.jpg",
+			"type": "image",
+			"name": "GameMain_BG_4_jpg"
+		},
+		{
+			"url": "ui/GameMain/GameMain_BG_5.jpg",
+			"type": "image",
+			"name": "GameMain_BG_5_jpg"
+		},
+		{
+			"url": "ui/GameMain/GameMain_BG_6.jpg",
+			"type": "image",
+			"name": "GameMain_BG_6_jpg"
+		},
+		{
+			"url": "config/level-3.json",
+			"type": "json",
+			"name": "level-3_json"
+		},
+		{
+			"url": "config/level-4.json",
+			"type": "json",
+			"name": "level-4_json"
+		},
+		{
+			"url": "config/level-5.json",
+			"type": "json",
+			"name": "level-5_json"
+		},
+		{
+			"url": "ui/GameMain/GameMain_Line.png",
+			"type": "image",
+			"name": "GameMain_Line_png"
+		},
+		{
+			"url": "ui/GameMain/GameMain_Line_Base.png",
+			"type": "image",
+			"name": "GameMain_Line_Base_png"
+		},
+		{
+			"url": "audios/click.mp3",
+			"type": "sound",
+			"name": "click_mp3"
+		},
+		{
+			"url": "audios/bubble_burst.mp3",
+			"type": "sound",
+			"name": "bubble_burst_mp3"
+		},
+		{
+			"url": "ui/Bubble/bubble-9.png",
+			"type": "image",
+			"name": "bubble-9_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-11.png",
+			"type": "image",
+			"name": "bubble-11_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-12.png",
+			"type": "image",
+			"name": "bubble-12_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-13.png",
+			"type": "image",
+			"name": "bubble-13_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-10.png",
+			"type": "image",
+			"name": "bubble-10_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-20.png",
+			"type": "image",
+			"name": "bubble-20_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-14.png",
+			"type": "image",
+			"name": "bubble-14_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-15.png",
+			"type": "image",
+			"name": "bubble-15_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-16.png",
+			"type": "image",
+			"name": "bubble-16_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-17.png",
+			"type": "image",
+			"name": "bubble-17_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-18.png",
+			"type": "image",
+			"name": "bubble-18_png"
+		},
+		{
+			"url": "ui/Bubble/bubble-19.png",
+			"type": "image",
+			"name": "bubble-19_png"
+		},
+		{
+			"url": "audios/dye.mp3",
+			"type": "sound",
+			"name": "dye_mp3"
+		},
+		{
+			"url": "ui/Bubble/bubble-21.png",
+			"type": "image",
+			"name": "bubble-21_png"
+		},
+		{
+			"url": "audios/fireball_explode.mp3",
+			"type": "sound",
+			"name": "fireball_explode_mp3"
+		},
+		{
+			"url": "audios/fireball_shoot.mp3",
+			"type": "sound",
+			"name": "fireball_shoot_mp3"
+		},
+		{
+			"url": "ui/Bubble/bubble-22.png",
+			"type": "image",
+			"name": "bubble-22_png"
+		},
+		{
+			"url": "audios/bomb_shoot.mp3",
+			"type": "sound",
+			"name": "bomb_shoot_mp3"
+		},
+		{
+			"url": "audios/bomb_explode.mp3",
+			"type": "sound",
+			"name": "bomb_explode_mp3"
+		},
+		{
+			"url": "audios/fuse_burning.mp3",
+			"type": "sound",
+			"name": "fuse_burning_mp3"
+		},
+		{
+			"url": "audios/fire_burning.mp3",
+			"type": "sound",
+			"name": "fire_burning_mp3"
+		},
+		{
+			"url": "audios/alarm.mp3",
+			"type": "sound",
+			"name": "alarm_mp3"
+		},
+		{
+			"url": "ui/GameMain/Txt_Combo.png",
+			"type": "image",
+			"name": "Txt_Combo_png"
+		},
+		{
+			"url": "ui/font/hallBet.fnt",
+			"type": "font",
+			"name": "hallBet_fnt"
+		},
+		{
+			"url": "ui/GameMain/Txt_TargetDone.png",
+			"type": "image",
+			"name": "Txt_TargetDone_png"
+		},
+		{
+			"url": "ui/GameMain/Txt_Excellent.png",
+			"type": "image",
+			"name": "Txt_Excellent_png"
+		},
+		{
+			"url": "ui/GameMain/Txt_Fail.png",
+			"type": "image",
+			"name": "Txt_Fail_png"
+		},
+		{
+			"url": "ui/GameMain/Txt_Go.png",
+			"type": "image",
+			"name": "Txt_Go_png"
+		},
+		{
+			"url": "ui/GameMain/Txt_Good.png",
+			"type": "image",
+			"name": "Txt_Good_png"
+		},
+		{
+			"url": "ui/GameMain/Txt_Great.png",
+			"type": "image",
+			"name": "Txt_Great_png"
+		},
+		{
+			"url": "ui/GameMain/Txt_Nice.png",
+			"type": "image",
+			"name": "Txt_Nice_png"
+		},
+		{
+			"url": "ui/GameMain/Txt_Ready.png",
+			"type": "image",
+			"name": "Txt_Ready_png"
+		},
+		{
+			"url": "audios/nice.mp3",
+			"type": "sound",
+			"name": "nice_mp3"
+		},
+		{
+			"url": "audios/excellent.mp3",
+			"type": "sound",
+			"name": "excellent_mp3"
+		},
+		{
+			"url": "audios/good.mp3",
+			"type": "sound",
+			"name": "good_mp3"
+		},
+		{
+			"url": "audios/cool.mp3",
+			"type": "sound",
+			"name": "cool_mp3"
+		},
+		{
+			"url": "ui/GameMain/Txt_Blocked.png",
+			"type": "image",
+			"name": "Txt_Blocked_png"
+		},
+		{
+			"url": "ui/Btn_Help.png",
+			"type": "image",
+			"name": "Btn_Help_png"
+		},
+		{
+			"url": "ui/Btn_Music_Off.png",
+			"type": "image",
+			"name": "Btn_Music_Off_png"
+		},
+		{
+			"url": "ui/Btn_Music_On.png",
+			"type": "image",
+			"name": "Btn_Music_On_png"
+		},
+		{
+			"url": "ui/Btn_Play.png",
+			"type": "image",
+			"name": "Btn_Play_png"
+		},
+		{
+			"url": "ui/Btn_Shop.png",
+			"type": "image",
+			"name": "Btn_Shop_png"
+		},
+		{
+			"url": "ui/Btn_Sound_Off.png",
+			"type": "image",
+			"name": "Btn_Sound_Off_png"
+		},
+		{
+			"url": "ui/Btn_Sound_On.png",
+			"type": "image",
+			"name": "Btn_Sound_On_png"
+		},
+		{
+			"url": "ui/Main_BG.jpg",
+			"type": "image",
+			"name": "Main_BG_jpg"
+		},
+		{
+			"url": "ui/Main_Logo.png",
+			"type": "image",
+			"name": "Main_Logo_png"
+		},
+		{
+			"url": "ui/Txt_Porgress.png",
+			"type": "image",
+			"name": "Txt_Porgress_png"
+		},
+		{
+			"url": "ui/Txt_Title_Help.png",
+			"type": "image",
+			"name": "Txt_Title_Help_png"
+		},
+		{
+			"url": "ui/Txt_Title_Shop.png",
+			"type": "image",
+			"name": "Txt_Title_Shop_png"
+		},
+		{
+			"url": "ui/Help_Banner.png",
+			"type": "image",
+			"name": "Help_Banner_png"
+		},
+		{
+			"url": "ui/Help_Shade.png",
+			"type": "image",
+			"name": "Help_Shade_png"
+		},
+		{
+			"url": "ui/Btn_Back.png",
+			"type": "image",
+			"name": "Btn_Back_png"
+		},
+		{
+			"url": "ui/Shop_Banner.png",
+			"type": "image",
+			"name": "Shop_Banner_png"
+		},
+		{
+			"url": "ui/Shop_Btn_Buy.png",
+			"type": "image",
+			"name": "Shop_Btn_Buy_png"
+		},
+		{
+			"url": "ui/Shop_Coin.png",
+			"type": "image",
+			"name": "Shop_Coin_png"
+		},
+		{
+			"url": "ui/font/hallBet.png",
+			"type": "image",
+			"name": "hallBet_png"
+		},
+		{
+			"url": "ui/font/number1.fnt",
+			"type": "font",
+			"name": "number1_fnt"
+		},
+		{
+			"url": "ui/font/number1.png",
+			"type": "image",
+			"name": "number1_png"
+		},
+		{
+			"url": "ui/font/number2.fnt",
+			"type": "font",
+			"name": "number2_fnt"
+		},
+		{
+			"url": "ui/font/number2.png",
+			"type": "image",
+			"name": "number2_png"
+		},
+		{
+			"url": "ui/font/number3.fnt",
+			"type": "font",
+			"name": "number3_fnt"
+		},
+		{
+			"url": "ui/font/number3.png",
+			"type": "image",
+			"name": "number3_png"
+		},
+		{
+			"url": "ui/GameMain/Btn_Pause.png",
+			"type": "image",
+			"name": "Btn_Pause_png"
+		},
+		{
+			"url": "ui/Level/Level_Area_2.png",
+			"type": "image",
+			"name": "Level_Area_2_png"
+		},
+		{
+			"url": "ui/Level/Level_Area_3.png",
+			"type": "image",
+			"name": "Level_Area_3_png"
+		},
+		{
+			"url": "ui/Level/Level_Area_4.png",
+			"type": "image",
+			"name": "Level_Area_4_png"
+		},
+		{
+			"url": "ui/Level/Level_Area_5.png",
+			"type": "image",
+			"name": "Level_Area_5_png"
+		},
+		{
+			"url": "ui/Level/Level_Area_6.png",
+			"type": "image",
+			"name": "Level_Area_6_png"
+		},
+		{
+			"url": "ui/Level/Level_Arrow.png",
+			"type": "image",
+			"name": "Level_Arrow_png"
+		},
+		{
+			"url": "ui/Level/Level_Avator.png",
+			"type": "image",
+			"name": "Level_Avator_png"
+		},
+		{
+			"url": "ui/Level/Level_Base_Coin.png",
+			"type": "image",
+			"name": "Level_Base_Coin_png"
+		},
+		{
+			"url": "ui/Level/Level_Base_Life.png",
+			"type": "image",
+			"name": "Level_Base_Life_png"
+		},
+		{
+			"url": "ui/Level/Level_BTN_1.png",
+			"type": "image",
+			"name": "Level_BTN_1_png"
+		},
+		{
+			"url": "ui/Level/Level_BTN_2.png",
+			"type": "image",
+			"name": "Level_BTN_2_png"
+		},
+		{
+			"url": "ui/Level/Level_BTN_3.png",
+			"type": "image",
+			"name": "Level_BTN_3_png"
+		},
+		{
+			"url": "ui/Level/Level_BTN_4.png",
+			"type": "image",
+			"name": "Level_BTN_4_png"
+		},
+		{
+			"url": "ui/Level/Level_BTN_5.png",
+			"type": "image",
+			"name": "Level_BTN_5_png"
+		},
+		{
+			"url": "ui/Level/Level_BTN_6.png",
+			"type": "image",
+			"name": "Level_BTN_6_png"
+		},
+		{
+			"url": "ui/Level/Level_BTN_Boss_Lock.png",
+			"type": "image",
+			"name": "Level_BTN_Boss_Lock_png"
+		},
+		{
+			"url": "ui/Level/Level_BTN_Boss.png",
+			"type": "image",
+			"name": "Level_BTN_Boss_png"
+		},
+		{
+			"url": "ui/Level/Level_BTN_Lock.png",
+			"type": "image",
+			"name": "Level_BTN_Lock_png"
+		},
+		{
+			"url": "ui/Level/Level_BTN_Pets.png",
+			"type": "image",
+			"name": "Level_BTN_Pets_png"
+		},
+		{
+			"url": "ui/Level/Level_Daily.png",
+			"type": "image",
+			"name": "Level_Daily_png"
+		},
+		{
+			"url": "ui/Level/Level_Gift.png",
+			"type": "image",
+			"name": "Level_Gift_png"
+		},
+		{
+			"url": "ui/Level/Level_Halo.png",
+			"type": "image",
+			"name": "Level_Halo_png"
+		},
+		{
+			"url": "ui/Level/Level_Map_1.jpg",
+			"type": "image",
+			"name": "Level_Map_1_jpg"
+		},
+		{
+			"url": "ui/Level/Level_Map_2.jpg",
+			"type": "image",
+			"name": "Level_Map_2_jpg"
+		},
+		{
+			"url": "ui/Level/Level_Map_3.jpg",
+			"type": "image",
+			"name": "Level_Map_3_jpg"
+		},
+		{
+			"url": "ui/Level/Level_Map_4.jpg",
+			"type": "image",
+			"name": "Level_Map_4_jpg"
+		},
+		{
+			"url": "ui/Level/Level_Map_5.jpg",
+			"type": "image",
+			"name": "Level_Map_5_jpg"
+		},
+		{
+			"url": "ui/Level/Level_Map_6.jpg",
+			"type": "image",
+			"name": "Level_Map_6_jpg"
+		},
+		{
+			"url": "ui/Level/Level_Map_7.jpg",
+			"type": "image",
+			"name": "Level_Map_7_jpg"
+		},
+		{
+			"url": "ui/Level/Level_Map_8.jpg",
+			"type": "image",
+			"name": "Level_Map_8_jpg"
+		},
+		{
+			"url": "ui/Level/Level_Mark_2.png",
+			"type": "image",
+			"name": "Level_Mark_2_png"
+		},
+		{
+			"url": "ui/Level/Level_Mark_3.png",
+			"type": "image",
+			"name": "Level_Mark_3_png"
+		},
+		{
+			"url": "ui/Level/Level_Mark_4.png",
+			"type": "image",
+			"name": "Level_Mark_4_png"
+		},
+		{
+			"url": "ui/Level/Level_Mark_5.png",
+			"type": "image",
+			"name": "Level_Mark_5_png"
+		},
+		{
+			"url": "ui/Level/Level_Mark_6.png",
+			"type": "image",
+			"name": "Level_Mark_6_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Add.png",
+			"type": "image",
+			"name": "Avator_Add_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Aim_Dim.png",
+			"type": "image",
+			"name": "Avator_Aim_Dim_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Aim_Light.png",
+			"type": "image",
+			"name": "Avator_Aim_Light_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Bomb_Dim.png",
+			"type": "image",
+			"name": "Avator_Bomb_Dim_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Bomb_Light.png",
+			"type": "image",
+			"name": "Avator_Bomb_Light_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Clear_Dim.png",
+			"type": "image",
+			"name": "Avator_Clear_Dim_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Clear_Light.png",
+			"type": "image",
+			"name": "Avator_Clear_Light_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Lock.png",
+			"type": "image",
+			"name": "Avator_Lock_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Mark_Dim.png",
+			"type": "image",
+			"name": "Avator_Mark_Dim_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Mark_Light.png",
+			"type": "image",
+			"name": "Avator_Mark_Light_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Rainbow_Dim.png",
+			"type": "image",
+			"name": "Avator_Rainbow_Dim_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Rainbow_Light.png",
+			"type": "image",
+			"name": "Avator_Rainbow_Light_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Rise_Dim.png",
+			"type": "image",
+			"name": "Avator_Rise_Dim_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Rise_Light.png",
+			"type": "image",
+			"name": "Avator_Rise_Light_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Steel_Dim.png",
+			"type": "image",
+			"name": "Avator_Steel_Dim_png"
+		},
+		{
+			"url": "ui/Level_Info/Avator_Steel_Light.png",
+			"type": "image",
+			"name": "Avator_Steel_Light_png"
+		},
+		{
+			"url": "ui/Level_Info/LevelInfo_Banner.png",
+			"type": "image",
+			"name": "LevelInfo_Banner_png"
+		},
+		{
+			"url": "ui/Level_Info/LevelInfo_Btn_Play.png",
+			"type": "image",
+			"name": "LevelInfo_Btn_Play_png"
+		},
+		{
+			"url": "ui/Level_Info/LevelInfo_Light.png",
+			"type": "image",
+			"name": "LevelInfo_Light_png"
+		},
+		{
+			"url": "ui/Level_Info/LevelInfo_Limit_Bubble.png",
+			"type": "image",
+			"name": "LevelInfo_Limit_Bubble_png"
+		},
+		{
+			"url": "ui/Level_Info/LevelInfo_Limit_Time.png",
+			"type": "image",
+			"name": "LevelInfo_Limit_Time_png"
+		},
+		{
+			"url": "ui/Level_Info/LevelInfo_Star_Dim.png",
+			"type": "image",
+			"name": "LevelInfo_Star_Dim_png"
+		},
+		{
+			"url": "ui/Level_Info/LevelInfo_Star_Light.png",
+			"type": "image",
+			"name": "LevelInfo_Star_Light_png"
+		},
+		{
+			"url": "ui/Common_Info_BG.png",
+			"type": "image",
+			"name": "Common_Info_BG_png"
+		},
+		{
+			"url": "ui/Btn_Close.png",
+			"type": "image",
+			"name": "Btn_Close_png"
+		},
+		{
+			"url": "ui/Btn_Next.png",
+			"type": "image",
+			"name": "Btn_Next_png"
+		},
+		{
+			"url": "ui/Btn_Restart.png",
+			"type": "image",
+			"name": "Btn_Restart_png"
+		},
+		{
+			"url": "ui/Btn_Resume.png",
+			"type": "image",
+			"name": "Btn_Resume_png"
+		},
+		{
+			"url": "ui/Txt_Title_Pause.png",
+			"type": "image",
+			"name": "Txt_Title_Pause_png"
+		},
+		{
+			"url": "ui/Txt_Title_Complete.png",
+			"type": "image",
+			"name": "Txt_Title_Complete_png"
+		},
+		{
+			"url": "ui/Txt_Title_GameOver.png",
+			"type": "image",
+			"name": "Txt_Title_GameOver_png"
+		},
+		{
+			"url": "ui/Common_Star_Dim.png",
+			"type": "image",
+			"name": "Common_Star_Dim_png"
+		},
+		{
+			"url": "ui/Common_Star_Light.png",
+			"type": "image",
+			"name": "Common_Star_Light_png"
+		},
+		{
+			"url": "audios/lose.mp3",
+			"type": "sound",
+			"name": "lose_mp3"
+		},
+		{
+			"url": "audios/win.mp3",
+			"type": "sound",
+			"name": "win_mp3"
+		},
+		{
+			"url": "ui/Common_Arrow.png",
+			"type": "image",
+			"name": "Common_Arrow_png"
+		},
+		{
+			"url": "ui/GameMain/GameMain_Count.png",
+			"type": "image",
+			"name": "GameMain_Count_png"
+		},
+		{
+			"url": "audios/quick_move.mp3",
+			"type": "sound",
+			"name": "quick_move_mp3"
+		},
+		{
+			"url": "ui/Bubble/bubble-23.png",
+			"type": "image",
+			"name": "bubble-23_png"
+		},
+		{
+			"url": "ui/GameMain/GameMain_Coin.png",
+			"type": "image",
+			"name": "GameMain_Coin_png"
+		},
+		{
+			"url": "ui/Txt_BestScore.png",
+			"type": "image",
+			"name": "Txt_BestScore_png"
+		},
+		{
+			"url": "ui/Txt_Score.png",
+			"type": "image",
+			"name": "Txt_Score_png"
+		},
+		{
+			"url": "ui/GameMain/GameMain_Txt_Target.png",
+			"type": "image",
+			"name": "GameMain_Txt_Target_png"
+		},
+		{
+			"url": "ui/tips_notice.png",
+			"type": "image",
+			"name": "tips_notice_png"
+		},
+		{
+			"url": "config/level-7.json",
+			"type": "json",
+			"name": "level-7_json"
+		},
+		{
+			"url": "config/level-8.json",
+			"type": "json",
+			"name": "level-8_json"
+		},
+		{
+			"url": "config/level-9.json",
+			"type": "json",
+			"name": "level-9_json"
+		},
+		{
+			"url": "config/level-6.json",
+			"type": "json",
+			"name": "level-6_json"
+		},
+		{
+			"url": "config/level-10.json",
+			"type": "json",
+			"name": "level-10_json"
+		},
+		{
+			"url": "config/level-11.json",
+			"type": "json",
+			"name": "level-11_json"
+		}
+	]
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LevelPanelSkin" width="568" height="852" currentState="level1" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" states="level1,level2,level3,level4,level5,level6,level7,level8">
+    <w:Config id="1583730038a" />
+    <e:Image source="Level_Map_1_jpg" left="0" right="0" top="0" bottom="0" source.level2="Level_Map_2_jpg"
+             source.level3="Level_Map_3_jpg" source.level4="Level_Map_4_jpg" source.level5="Level_Map_5_jpg"
+             source.level6="Level_Map_6_jpg" source.level7="Level_Map_7_jpg" source.level8="Level_Map_8_jpg" />
+    <e:Image id="lightImg" source="Level_Halo_png" x="304" y="655" scaleX="1" scaleY="1" anchorOffsetX="28"
+             anchorOffsetY="17" />
+    <e:Button id="levelBtn1" label="" x="390" y="649.36" enabled="false" scaleX="1" scaleY="1" anchorOffsetX="26"
+              anchorOffsetY="18" x.level2="286" y.level2="818.69" x.level3="332.67" y.level3="828.03" x.level4="188.67"
+              y.level4="825.36" x.level5="207.33" y.level5="808.03" x.level6="199.34" y.level6="800.03"
+              x.level7="184.67" y.level7="717.36" x.level8="420.67" y.level8="818.69">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="Level_BTN_1_png" source.disabled="Level_BTN_Lock_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="levelBtn2" label="" x="332.66" y="569.7" enabled="false" scaleX="1" scaleY="1" anchorOffsetX="26"
+              anchorOffsetY="18" x.level2="241.99" y.level2="711.03" x.level3="341.99" y.level3="760.37"
+              x.level4="177.99" y.level4="745.7" x.level5="266" y.level5="735.04" x.level6="343.33" y.level6="757.7"
+              x.level7="231.33" y.level7="635.03" x.level8="363.33" y.level8="747.03">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="Level_BTN_1_png" source.disabled="Level_BTN_Lock_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="levelBtn3" label="" x="307.99" y="498.36" enabled="false" scaleX="1" scaleY="1" anchorOffsetX="26"
+              anchorOffsetY="18" x.level2="135.99" y.level2="594.36" x.level3="319.99" y.level3="695.69"
+              x.level4="222.66" y.level4="666.36" x.level5="331.99" y.level5="617.03" x.level6="341.32"
+              y.level6="619.69" x.level7="315.99" y.level7="578.36" x.level8="242.66" y.level8="746.36">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="Level_BTN_1_png" source.disabled="Level_BTN_Lock_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="levelBtn4" label="" x="267.34" y="433.7" enabled="false" scaleX="1" scaleY="1" anchorOffsetX="26"
+              anchorOffsetY="18" x.level2="298.01" y.level2="532.37" x.level3="332.67" y.level3="493.7"
+              x.level4="367.34" y.level4="648.37" x.level5="242.01" y.level5="565.7" x.level6="180.67" y.level6="580.37"
+              x.level7="396.67" y.level7="472.37" x.level8="196.67" y.level8="677.7">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="Level_BTN_1_png" source.disabled="Level_BTN_Lock_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="levelBtn5" label="" x="249.33" y="383.69" enabled="false" scaleX="1" scaleY="1" anchorOffsetX="26"
+              anchorOffsetY="18" x.level2="406.67" y.level2="454.36" x.level3="354.66" y.level3="413.02" x.level4="432"
+              y.level4="561.02" x.level5="266.67" y.level5="471.69" x.level6="122.66" y.level6="485.02"
+              x.level7="306.66" y.level7="410.36" x.level8="288" y.level8="603.69">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="Level_BTN_1_png" source.disabled="Level_BTN_Lock_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="levelBtn6" label="" x="287.33" y="337.69" enabled="false" scaleX="1" scaleY="1" anchorOffsetX="26"
+              anchorOffsetY="18" x.level2="315.33" y.level2="355.02" x.level3="259.33" y.level3="351.03"
+              x.level5="400.66" y.level5="393.69" x.level6="251.34" y.level6="412.35" x.level7="167.33"
+              y.level7="429.69" x.level8="352.66" y.level8="549.69" x.level4="376.66" y.level4="371.02">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="Level_BTN_1_png" source.disabled="Level_BTN_Lock_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="levelBtn7" label="" x="332" y="277.02" enabled="false" scaleX="1" scaleY="1" anchorOffsetX="26"
+              anchorOffsetY="18" x.level2="134.67" y.level2="318.35" x.level3="141.33" y.level3="271.69" x.level4="170.67"
+              y.level4="367.69" x.level5="322.67" y.level5="281.02" x.level6="388" y.level6="346.35" x.level7="174.66"
+              y.level7="330.35" x.level8="344" y.level8="465.02">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="Level_BTN_1_png" source.disabled="Level_BTN_Lock_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="levelBtn8" label="" x="354" y="187.03" enabled="false" scaleX="1" scaleY="1" anchorOffsetX="26"
+              anchorOffsetY="18" x.level2="187.34" y.level2="167.03" x.level3="248.66" y.level3="220.36"
+              x.level4="132.67" y.level4="315.03" x.level5="407.33" y.level5="224.36" x.level6="455.33"
+              y.level6="236.36" x.level7="264.67" y.level7="269.7" x.level8="342" y.level8="367.03">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="Level_BTN_1_png" source.disabled="Level_BTN_Lock_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="levelBtn9" label="" x="302.67" y="138.36" enabled="false" scaleX="1" scaleY="1" anchorOffsetX="26"
+              anchorOffsetY="18" x.level2="342.66" y.level2="127.69" x.level3="401.33" y.level3="185.03"
+              x.level4="181.34" y.level4="247.69" x.level5="416" y.level5="137.03" x.level6="442.67" y.level6="110.36"
+              x.level8="216" y.level8="317.03">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="Level_BTN_1_png" source.disabled="Level_BTN_Lock_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="levelBtn10" label="" x="276.67" y="73.69" enabled="false" scaleX="1" scaleY="1" anchorOffsetX="26"
+              anchorOffsetY="18" x.level2="451.33" y.level2="73.69" x.level3="312.68" y.level3="68.35" x.level4="139.34"
+              y.level4="155.02" x.level5="243.34" y.level5="81.69" x.level6="220.67" y.level6="121.69" x.level7="378"
+              y.level7="68.36" x.level8="331.34" y.level8="253.69">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="Level_BTN_1_png" source.disabled="Level_BTN_Lock_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Image source="Level_Base_Coin_png" x="23" y="16" />
+    <e:Image id="headImg" source="Level_Avator_png" x="390" y="649.36" anchorOffsetX="32.5" anchorOffsetY="97" />
+    <e:BitmapLabel id="coinLab" x="43.33" y="36.33" text="0" font="number3_fnt" scaleX="0.8" scaleY="0.8"  width="216" textAlign="center"/>
+    <e:Button id="backBtn" label="" x="25.67" y="714.67">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="Btn_Back_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<e:Image id="arrowImg" source="Common_Arrow_png" x="489" y="756"/>
+	<e:Image id="nextArrowImg" source="Common_Arrow_png" x="489" y="92" scaleY="-1"/>
+</e:Skin>

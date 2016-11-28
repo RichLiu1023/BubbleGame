@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LevelInfoPanelSkin" width="418" height="458" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="Common_Info_BG_png"/>
+	<e:Image source="Common_Info_BG_png" x="417" scaleX="-1"/>
+	<e:Image source="LevelInfo_Light_png" x="93" y="87"/>
+	<e:Label id="levelLab" text="关卡 1" x="90" y="20" anchorOffsetX="0" width="241" textAlign="center" fontFamily="黑体" textColor="0xf9ff00" stroke="2"/>
+	<e:Image source="LevelInfo_Star_Dim_png" x="66" y="110"/>
+	<e:Image source="LevelInfo_Star_Dim_png" y="70" x="167"/>
+	<e:Image source="LevelInfo_Star_Dim_png" x="266" y="109"/>
+	<e:Button id="playBtn" label="" y="309" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="LevelInfo_Btn_Play_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="starImg1" source="LevelInfo_Star_Light_png" x="65" y="111"/>
+	<e:Image id="starImg2" source="LevelInfo_Star_Light_png" x="167" y="70"/>
+	<e:Image id="starImg3" source="LevelInfo_Star_Light_png" x="265" y="108"/>
+	<e:Button id="closeBtn" label="" right="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="LevelInfo_Banner_png" y="211" x="72"/>
+	<e:Image source="LevelInfo_Banner_png" y="257" x="72"/>
+	<e:Image source="Common_Star_Light_png" x="76" y="213"/>
+	<e:Image source="Txt_BestScore_png" x="82" y="261"/>
+	<e:BitmapLabel id="maxLab" x="210" y="261" font="number3_fnt" text="0" anchorOffsetX="0" width="185"/>
+	<e:Image source="GameMain_Txt_Target_png" x="110" y="219"/>
+	<e:Label id="targetLab" text="得分10000" x="153" y="219" anchorOffsetX="0" width="187" size="20"/>
+</e:Skin>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopPanelSkin" width="568" height="852" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15834e10d1b"/>
+	<e:Image source="Main_BG_jpg" scaleX="1" scaleY="1"/>
+	<e:Button id="backBtn" label="" x="16" y="18.33">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="Btn_Back_png"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+	<e:Image source="Txt_Title_Shop_png" y="95" x="189"/>
+	<e:Image source="Shop_Coin_png" x="92.26" y="201"/>
+	<e:Image source="bubble-21_png" x="251.85" y="187.7"/>
+	<e:Image source="GameMain_Wave_png" x="417" y="201"/>
+	<e:Group id="oneGroup" height="68.33" y="284" anchorOffsetY="0" anchorOffsetX="0" width="568" x="0">
+		<e:Image source="Shop_Banner_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="oneBtn" label="" x="306.41" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Shop_Btn_Buy_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="Shop_Coin_png" x="321.37" verticalCenter="0" touchEnabled="false"/>
+		<e:BitmapLabel x="364.33" font="hallBet_fnt" text="50" scaleX="0.8" scaleY="0.8" verticalCenter="0" touchEnabled="false"/>
+		<e:Image source="bubble-21_png" x="127" verticalCenter="0"/>
+		<e:BitmapLabel x="207" text="+ 3" font="number2_fnt" scaleX="0.3" scaleY="0.3" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="twoGroup" height="68.33" y="353" anchorOffsetY="0" anchorOffsetX="0" width="568" x="0">
+		<e:Image source="Shop_Banner_png" x="108" verticalCenter="0"/>
+		<e:Button id="twoBtn" label="" x="306.41" verticalCenter="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Shop_Btn_Buy_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:Button>
+		<e:Image source="Shop_Coin_png" x="320.04" verticalCenter="0" touchEnabled="false"/>
+		<e:BitmapLabel x="357.68" font="hallBet_fnt" text="150" scaleX="0.8" scaleY="0.8" verticalCenter="0" touchEnabled="false"/>
+		<e:Image source="bubble-21_png" x="127" verticalCenter="0"/>
+		<e:BitmapLabel x="207" text="+ 10" font="number2_fnt" scaleX="0.3" scaleY="0.3" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="threeGroup" height="68.33" y="423" anchorOffsetY="0" anchorOffsetX="0" width="568">
+		<e:Image source="Shop_Banner_png" x="108" verticalCenter="0"/>
+		<e:Button id="threeBtn" label="" x="306.41" verticalCenter="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Shop_Btn_Buy_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:Button>
+		<e:Image source="Shop_Coin_png" x="321.37" verticalCenter="0" touchEnabled="false"/>
+		<e:BitmapLabel x="364.33" font="hallBet_fnt" text="50" scaleX="0.8" scaleY="0.8" verticalCenter="0" touchEnabled="false"/>
+		<e:Image x="134.98" verticalCenter="0" source="GameMain_Wave_png"/>
+		<e:BitmapLabel x="207" text="+ 3" font="number2_fnt" scaleX="0.3" scaleY="0.3" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="fourGroup" height="68.33" y="492" anchorOffsetY="0" anchorOffsetX="0" width="568">
+		<e:Image source="Shop_Banner_png" x="108" verticalCenter="0"/>
+		<e:Button id="fourBtn" label="" x="306.41" verticalCenter="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Shop_Btn_Buy_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:Button>
+		<e:Image source="Shop_Coin_png" x="321.37" verticalCenter="0" touchEnabled="false"/>
+		<e:BitmapLabel x="357.68" font="hallBet_fnt" text="150" scaleX="0.8" scaleY="0.8" verticalCenter="0" touchEnabled="false"/>
+		<e:Image x="134.98" verticalCenter="0" source="GameMain_Wave_png"/>
+		<e:BitmapLabel x="207" text="+ 10" font="number2_fnt" scaleX="0.3" scaleY="0.3" verticalCenter="0"/>
+	</e:Group>
+	<e:BitmapLabel id="coinLab" x="136" y="207.68" font="number3_fnt" text="0"/>
+	<e:BitmapLabel id="fireLab" x="316.32" y="207.7" font="number3_fnt" text="0"/>
+	<e:BitmapLabel id="waveLab" x="471.65" y="207.02" font="number3_fnt" text="0"/>
+</e:Skin>

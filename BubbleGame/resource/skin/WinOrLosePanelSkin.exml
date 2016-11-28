@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WinOrLosePanelSkin" width="568" height="852" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15839c65126"/>
+	<e:Rect left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" fillAlpha="0.55"/>
+	<e:Image id="logoImg" source="Txt_Title_Complete_png" y="38" horizontalCenter="0" x="169" scaleX="1" scaleY="1"/>
+	<e:Image source="LevelInfo_Light_png" y="174.33" scaleX="1" scaleY="1" x="166.67"/>
+	<e:Button id="starBtn1" label="" x="160.67" y="198">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="LevelInfo_Star_Light_png" source.disabled="LevelInfo_Star_Dim_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="starBtn2" label="" y="160.33" x="242.67">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="LevelInfo_Star_Light_png" source.disabled="LevelInfo_Star_Dim_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="starBtn3" label="" x="321.67" y="197">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="LevelInfo_Star_Light_png" source.disabled="LevelInfo_Star_Dim_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="Txt_BestScore_png" x="146" y="347" scaleX="1" scaleY="1"/>
+	<e:Image source="Txt_Score_png" x="201" y="303" scaleX="1" scaleY="1"/>
+	<e:Image id="targetImg" source="Txt_TargetDone_png" x="192" y="592" scaleX="1" scaleY="1"/>
+	<e:BitmapLabel id="scoreLab" x="279" y="306.33" font="number3_fnt" text="0" width="287" scaleX="1" scaleY="1"/>
+	<e:BitmapLabel id="maxLab" x="279" y="343" font="number3_fnt" text="0" width="286" scaleX="1" scaleY="1"/>
+	<e:Button id="nextBtn" label="" x="352.33" y="484.67">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Next_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="restartBtn" label="" x="225.33" y="395.33">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Restart_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="backBtn" label="" x="126.33" y="506.33">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="Btn_Back_png"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="shopBtn" label="" x="360" y="490">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="Btn_Shop_png"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+</e:Skin>

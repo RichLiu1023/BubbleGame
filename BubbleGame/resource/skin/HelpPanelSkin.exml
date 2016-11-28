@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpPanelSkin" width="568" height="852" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15834d2917b"/>
+	<e:Image source="Help_Shade_png" y="94.34" x="0" scaleX="1" scaleY="1"/>
+	<e:Image source="Help_Shade_png" y="582.34" scaleX="1" scaleY="1"/>
+	<e:Image source="Txt_Title_Help_png" y="95" horizontalCenter="0"/>
+	<e:Button id="backBtn" label="" x="16" y="18.33">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Back_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>
