@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>T_T</title>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+    <meta name="description" content="">
+
+    <meta name="renderer" content="webkit">
+
+    <script src="./js/aes.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link href="./css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body style="margin-top:20%">
+
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+        <div class="input-group">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" id='btnGo' type="button" onclick="onClickBtnAdd()">
+                            加
+                        </button>
+                    </span>
+                    <input type="text" class="form-control" id="source">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" id='btnGo' type="button" onclick="onClickBtn()">
+                            解
+                        </button>
+                    </span>
+                </div><!-- /input-group -->
+        </div>
+    <hr>
+        <div class="col-md-12 column">
+        <div class="input-group">
+        <span class="input-group-addon">key</span>
+                    <input type="text" class="form-control" id="pwd">
+                </div><!-- /input-group -->
+    </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <p id="tip" class="text-center text-success">结果</p>
+    </div>
+</div>
+<script type="text/javascript">
+    function onClickBtn(){
+        var tip = document.getElementById("tip");
+        var source = document.getElementById("source");
+        var pwd = document.getElementById("pwd");
+        tip.innerHTML = CryptoJS.AES.decrypt(source.value, pwd.value).toString(CryptoJS.enc.Utf8);
+    }
+
+    function onClickBtnAdd(){
+        var tip = document.getElementById("tip");
+        var source = document.getElementById("source");
+        var pwd = document.getElementById("pwd");
+        tip.innerHTML = CryptoJS.AES.encrypt(source.value, pwd.value);
+    }
+</script>
+</body>
+
+</html>
+
