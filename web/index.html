@@ -40,6 +40,11 @@
                             解
                         </button>
                     </span>
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" id='btnClear' type="button" onclick="onClickBtnClear()">
+                            clear
+                        </button>
+                    </span>
                 </div><!-- /input-group -->
         </div>
     <hr>
@@ -62,6 +67,13 @@
         var source = document.getElementById("source");
         var pwd = document.getElementById("pwd");
         tip.innerHTML = CryptoJS.AES.decrypt(source.value, pwd.value).toString(CryptoJS.enc.Utf8);
+    }
+
+    function onClickBtnClear(){
+        var tip = document.getElementById("tip");
+        var source = document.getElementById("source");
+        tip.innerHTML = "";
+        source.value = "";
     }
 
     function onClickBtnAdd(){
